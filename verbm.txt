@@ -1,0 +1,244 @@
+ask-pucho
+asks-puchta hai
+asking-puch rha
+call-bulao
+calls-bulata hai
+calling-bula rha
+come-aao
+comes-aata hai
+comming-aa rha
+do-karo
+does-krta hai
+doing-kar rha
+feel-mehsoos karo
+feels-mehsoos karta hai
+feeling-mehsoos kar rha
+find-dhundho
+finds-dhundhta hai
+fiding-dhundh rha
+get-lao
+gets-lata hai
+getting-la rha
+give-do
+gives-deta hai
+giving-de rha
+go-jao
+goes-jata hai
+going-jaa rha
+hear-suno
+hears-sunta hai
+hearing-sun rha
+help-madad karo
+helps-madad krta hai
+helping-madad kar rha
+keep-rakho
+keeps-rakhta hai
+keeping-rakh rha
+leave-choro
+leaves-chhodta hai
+leaving-chhod rha
+like-pasand karo
+likes-pasand krta hai
+liking-pasand kar rha
+live-jiyo
+lives-jita hai
+living-jee rha
+look-dekho
+looks-dekhta hai
+looking-dekh rha
+make-banao
+makes-banata hai
+making-bana rha
+move-hilo
+moves-hilta hai
+moving-hil rha
+play-khelo
+plays-khelta hai
+playing-khel rha
+put-rakho
+puts-rakhta hai
+putting-rakh rha
+run-bhago
+runs-bhagta hai
+running-bhaag rha
+say-bolo
+says-bolta hai
+saying-bol rha
+see-dekho
+sees-dekhta hai
+seeing-dekh rha
+show-dikhao
+shows-dikhata hai
+showing-dikha rha
+start-shuru karo
+starts-shuru karta hai
+starting-shuru kar rha
+take-lelo
+takes-leta hai
+taking-le rha
+talk-baat karo
+talks-baat krta hai
+talking-baat kr rha
+tell-batao
+tells-batata hai
+telling-bata rha
+think-socho
+thinks-sochta hai
+thinking-soch rha
+try-koshish karo
+tries-koshish krta hai
+trying-koshish kar rha
+turn-ghumo
+turns-ghumta hai
+turning-ghum rha
+use-istemal karo
+uses-isetamal krta hai
+using-istemal kar rha
+work-kaam
+works-kaam krta hai
+working-kaam kar rha
+know-jano
+knows-jaanta hai
+knowing-jaan rha
+want-chaho
+wants-chahta hai
+wanting-chah rha
+leave-jao
+leaves-jaata hai
+leaving-jaa rha
+live-jiyo
+lives-jita hai
+living-jee rha
+believe-yakeen karo
+believes-yakeen karta hai
+believing-yakeen kar rha
+hold-pakdo
+holds-pakadta hai
+holding-pakad rha
+bring-lao
+brings-laata hai
+bringing-laa rha
+write-likho
+writes-likhta hai
+writing-likh rha
+provide-do
+provides-deta hai
+providing-de rha
+sit-baitho
+sits-baithta hai
+sitting-baith rha
+stand-khade ho jao
+stands-khade hota hai
+standing-khada
+lose-haro
+loses-harta hai
+losing-haar rha
+meet-milo
+meets-milta hai
+meeting-mil rha
+include-shamil karo
+includes-shamil krta hai
+including-shamil kar rha
+continue-aage badho
+continues-aage badhta hai
+continuing-aage badh rha
+learn-seekho
+learns-seekhta hai
+learning-seekh rha
+change-badlo
+changes-badlta hai
+changing-badal rha
+lead-natritva karo
+leads-natritva krta hai
+leading-natritva kar rha
+understand-samjho
+understands-samajhta hai
+understanding-samajh rha
+watch-dekho
+watchs-dekhta hai
+watching-dekh rha
+follow-peecha karo
+follows-peecha krta hai
+following-peecha kar rha
+stop-ruko
+stops-rukta hai
+stopping-ruk rha
+create-banao
+creates-banata hai
+creating-bana rha
+speak-bolo
+speaks-bolta hai
+speaking-bol rha
+read-padho
+reads-padhta hai
+reading-padh rha
+allow-ijazat do
+allows-ijazat deta hai
+allowing-ijazat de rha
+add-jodo
+adds-jodta hai
+adding-jod rha
+spend-kharcho
+spends-kharchta hai
+spending-kharach rha
+open-kholo
+opens-kholta hai
+opening-khol rha
+walk-chalo
+walks-chalta hai
+walking-chal rha
+win-jeeto
+wins-jeetta hai
+winning-jeet rha
+remember-yaad rakho
+remembers-yaad rakhta hai
+remembering-yaad rakh rha
+love-pyaar karo
+loves-pyaar krta hai
+loving-pyaar kar rha
+appear-aao
+appears-aata hai
+appearing-aa rha
+buy-khareedo
+buys-khareedta hai
+buying-khareed rha
+wait-ruko
+waits-rukta hai
+waiting-ruk rha
+die-maro
+dies-maarta hai
+dieing-maar rha
+send-bhejo
+sends-bhejta hai
+sending-bhej rha
+build-banao
+builds-banata hai
+building-bana rha
+stay-thehero
+stays-theherta hai
+staying-theher rha
+fall-giro
+falls-girta hai
+falling-gir rha
+cut-kato
+cuts-katta hai
+cutting-kat rha
+reach-pahuncho
+reaches-pahuchta hai
+reaching-pahuch rha
+kill-maaro
+kills-maarta hai
+killing-maar rha
+sleep-so jayo
+sleeps-sota hai
+sleeping-so rha
+sing-gayo
+sings-gata hai
+singing-gaa rha
+dance-nacho
+dances-nachti hai
+dancing-nach rha
+is-hai
+are-hai
+delhi-Delhi
+Delhi-Delhi

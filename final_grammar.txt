@@ -1,0 +1,10 @@
+S -> N + V
+N -> p
+N -> n
+V -> v
+V -> v + v
+V -> v + N
+V -> v + N + P
+V -> v + P
+V -> v + a
+P -> r + N

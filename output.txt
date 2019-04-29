@@ -1,0 +1,15 @@
+Students are present
+NNS VBP JJ 
+
+Students are having tea
+NNS VBP VBG NN 
+
+India plays cricket
+NNP VBZ NN 
+
+Ram likes coffee
+NNP VBZ NN 
+
+Ram is sleeping
+NNP VBZ VBG
+

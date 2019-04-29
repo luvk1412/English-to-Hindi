@@ -1,4 +1,6 @@
 import tkinter as tk
+import codecs
+from utils import Translate_EN_HN
 
 
 class Application:
@@ -15,15 +17,27 @@ class Application:
         self.translate_bt.pack( padx = 10, pady = 4)
         self.output_label = tk.Label(self.root, text="Output", font=("courier",20,"bold"))
         self.output_label.pack(fill = tk.X, padx = 10, pady = 4)
-        self.output_text = tk.Label(self.root, text="Mera naam Luv hai", font=("courier",25))
+        self.output_text = tk.Label(self.root, text='Upar Vakya Daale', font=("courier",25))
         self.output_text.pack(fill = tk.X, padx = 10, pady = 4)
     def callback_translate(self):
-        print(self.input_field.get('1.0', tk.END), type(self.input_field.get('1.0', tk.END)))
+        input_en = self.input_field.get('1.0', tk.END)
+        output_hn = Translate_EN_HN(input_en)
+        if output_hn == '2':
+            self.input_field.delete('1.0', tk.END)
+            self.output_text.config(text='Upar Vakya Daale')
+            tk.messagebox.showinfo("Error", "Word not in dictionary")
+            return
+        if output_hn == '3':
+            self.input_field.delete('1.0', tk.END)
+            self.output_text.config(text='Upar Vakya Daale')
+            tk.messagebox.showinfo("Error", "Cannot Translate To hindi")
+            return
         self.input_field.delete('1.0', tk.END)
-        
+        self.output_text.config(text=output_hn)
     def destructor(self):
         print("Closing Application...")
         self.root.destroy()
-print("Starting Application...")
-pba = Application()
-pba.root.mainloop()
+if __name__ == '__main__':
+    print("Starting Application...")
+    pba = Application()
+    pba.root.mainloop()

@@ -1,0 +1,165 @@
+ask-puchte hai
+asking-puch rhe
+call-bulate hai
+calling-bula rhe
+come-aate hai
+comming-aa rhe
+do-karte hai
+doing-kar rhe
+feel-mehsoos karte hai
+feeling-mehsoos kar rhe
+find-dhundhte hai
+fiding-dhundh rhe
+get-laate hai
+getting-la rhe
+give-dete hai
+giving-de rhe
+go-jate hai
+going-jaa rhe
+hear-sunte hai
+hearing-sun rhe
+help-madad karte hai
+helping-madad kar rhe
+keep-rakhte hai
+keeping-rakh rhe
+leave-chorte hai
+leaving-chhod rhe
+like-pasand karte hai
+liking-pasand kar rhe
+live-jite hai
+living-jee rhe
+look-dekhte hai
+looking-dekh rhe
+make-banate hai
+making-bana rhe
+move-hilte hai
+moving-hil rhe
+play-khelte hai
+playing-khel rhe
+put-rakhte hai
+putting-rakh rhe
+run-bhagte hai
+running-bhaag rhe
+say-bolte hai
+saying-bol rhe
+see-dekhte hai
+seeing-dekh rhe
+show-dikhate hai
+showing-dikha rhe
+start-shuru karte hai
+starting-shuru kar rhe
+take-lete hai
+taking-le rhe
+talk-baat karte hai
+talking-baat kr rhe
+tell-batate hai
+telling-bata rhe
+think-sochte hai
+thinking-soch rhe
+try-koshish karte hai
+trying-koshish kar rhe
+turn-ghumte hai
+turning-ghum rhe
+use-istemal karte hai
+using-istemal kar rhe
+work-kaam karte hai
+working-kaam kar rhe
+know-jante hai
+knowing-jaan rhe
+want-chahte hai
+wanting-chah rhe
+leave-jate hai
+leaving-jaa rhe
+live-jite hai
+living-jee rhe
+believe-yakeen karte hai
+believing-yakeen kar rhe
+hold-pakdte hai
+holding-pakad rhe
+bring-late hai
+bringing-laa rhe
+write-likhte hai
+writing-likh rhe
+provide-dete hai
+providing-de rhe
+sit-baithte hai
+sitting-baith rhe
+stand-khade ho jate hai
+standing-khada
+lose-harte hai
+losing-haar rhe
+meet-milte hai
+meeting-mil rhe
+include-shamil karte hai
+including-shamil kar rhe
+continue-aage badhte hai
+continuing-aage badh rhe
+learn-seekhte hai
+learning-seekh rhe
+change-badlte hai
+changing-badal rhe
+lead-natritva karte hai
+leading-natritva kar rhe
+understand-samjhte hai
+understanding-samajh rhe
+watch-dekhte hai
+watching-dekh rhe
+follow-peecha karte hai
+following-peecha kar rhe
+stop-rukte hai
+stopping-ruk rhe
+create-banate hai
+creating-bana rhe
+speak-bolte hai
+speaking-bol rhe
+read-padhte hai
+reading-padh rhe
+allow-ijazat dete hai
+allowing-ijazat de rhe
+add-jodte hai
+adding-jod rhe
+spend-kharchte hai
+spending-kharach rhe
+open-kholte hai
+opening-khol rhe
+walk-chalte hai
+walking-chal rhe
+win-jeette hai
+winning-jeet rhe
+remember-yaad rakhte hai
+remembering-yaad rakh rhe
+love-pyaar karte hai
+loving-pyaar kar rhe
+appear-aate hai
+appearing-aa rhe
+buy-khareedte hai
+buying-khareed rhe
+wait-rukte hai
+waiting-ruk rhe
+die-marte hai
+dieing-maar rhe
+send-bhejte hai
+sending-bhej rhe
+build-banate hai
+building-bana rhe
+stay-theherte hai
+staying-theher rhe
+fall-girte hai
+falling-gir rhe
+cut-katte hai
+cutting-kat rhe
+reach-pahunchte hai
+reaching-pahuch rhe
+kill-maarte hai
+killing-maar rhe
+sleep-so jate hai
+sleeping-so rhe
+sing-gaate hai
+singing-gaa rhe
+dance-nachte hai
+dances-nachta hai
+dancing-nach rhe
+is-hai
+are-hai
+delhi-Delhi
+Delhi-Delhi

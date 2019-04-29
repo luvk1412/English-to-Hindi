@@ -1,0 +1,90 @@
+ask-pucho
+asks-puchta hai
+begin-shuru karo
+call-bulao
+come-aao
+do-karo
+feel-mehsoos karo
+feels-mehsoos karta hai
+find-dhundho
+get-lao
+give-do
+go-jao
+hear-suno
+help-madad karo
+keep-rakho
+leave-choro
+let-do
+like-pasand karo
+live-jiyo
+look-dekho
+make-banao
+move-hilo
+play-khelo
+plays-khelta hai
+put-rakho
+run-bhago
+say-bolo
+see-dekho
+show-dikhao
+start-shuru karo
+take-lelo
+talk-baat karo
+tell-batao
+think-socho
+try-koshish karo
+turn-ghumo
+use-istemal karo
+work-kaam karo
+know-jano
+want-chaho
+leave-jao
+live-jiyo
+believe-yakeen karo
+hold-ruko
+bring-lao
+write-likho
+provide-do
+sit-baitho
+stand-khade ho jao
+lose-haro
+meet-milo
+include-shamil karo
+continue-aage badho
+learn-seekho
+change-badlo
+lead-natritva karo
+understand-samjho
+watch-dekho
+follow-peecha karo
+stop-ruko
+create-banao
+speak-bolo
+read-padho
+allow-ijazat do
+add-jodo
+spend-kharcho
+open-kholo
+walk-chalo
+win-jeeto
+remember-yaad rakho
+love-pyaar karo
+appear-aao
+buy-khareedo
+wait-ruko
+die-maro
+send-bhejo
+build-banao
+stay-thehero
+fall-giro
+cut-kato
+reach-pahuncho
+kill-maaro
+kills-maarta hai
+sleep-so jayo
+sleeps-sota hai
+sleeping-so rha
+sing-gayo
+sings-gata hai
+is-hai
+are-hai
