@@ -1,0 +1,71 @@
+S -> NP VP
+S -> NPP VP
+S -> VP
+S -> NP NPP VP
+S -> NPP NPP NP VP
+NP -> N
+NP -> Det Adj N
+NP -> Det N
+NP -> Pron
+NP -> Pron N
+NP -> Num N
+NP -> Num N N
+NP -> N Conj N
+NP -> Num N N Conj N
+NP -> Det N N
+NP -> Det Adj Adj N
+NP -> Pron N N
+NP -> Adj Pron N
+NP -> Det Adj N N
+NP -> Det Adj N Pron
+NP -> Neg N
+NP -> Pron Adj N
+NPP -> Prep NP
+AP -> Adj
+AP -> Adj Adj
+AP -> Adj Conj Adj
+V -> V
+V -> V V
+V -> V Adv V
+V -> V Neg V
+V -> V V V V
+V -> V Conj V
+V -> V Adv
+V -> V Neg V Adv
+V -> Adv Conj Adv
+V -> Adv V Neg V
+V -> V Adv Conj Adv
+V -> Adv V
+V -> V V Adv
+VPP -> Prep V
+VP -> V NP
+VP -> V VPP NP
+VP -> V NPP NP
+VP -> V NP NPP
+VP -> V AP
+VP -> V NP NP VPP
+VP -> V
+VP -> V NPP
+VP -> V VPP
+VP -> V NP V
+VP -> V NP VPP NP
+VP -> V VPP NPP
+VP -> V NP NPP V NP
+VP -> V NP AP
+VP -> V NP AP VPP
+VP -> V NPP NPP
+VP -> V NP V NPP
+VP -> V VPP NP NP
+VP -> V NP NPP NPP
+VP -> V NPP NPP NPP
+VP -> V VPP AP NPP NPP
+VP -> V VPP NP NPP
+VP -> V AP NPP NPP
+VP -> V NP AP NPP
+VP -> V NPP AP
+VP -> V VPP NP AP
+VP -> V AP NPP
+VP -> V NP VPP NP NPP
+VP -> V NP NPP
+VP -> V NPP VPP NP
+VP -> V NPP AP NPP

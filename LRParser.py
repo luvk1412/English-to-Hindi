@@ -217,23 +217,23 @@ def print_info():
     for head in list(G.keys()):
         if head == start:
             continue
-        print(("{:>{width}} ->".format(head, width=len(max(list(G.keys()), key=len)))))
+        print(("{:>{width}} ->".format(head, width=len(max(list(G.keys()), key=len)))), end = '')
         num_prods = 0
         for prods in G[head]:
             if num_prods > 0:
-                print ("|")
+                print ("|", end = '')
             for prod in prods:
-                print (prod)
+                print (prod, end = '')
             num_prods += 1
         print("")
     print ("\nAUGMENTED GRAMMAR:")
     i = 0
     for head in list(G.keys()):
         for prods in G[head]:
-            print(("{:>{width}}:".format(str(i), width=len(str(sum(len(v) for v in G.values()) - 1)))))
-            print(("{:>{width}} ->".format(head, width=len(max(list(G.keys()), key=len)))))
+            print(("{:>{width}}:".format(str(i), width=len(str(sum(len(v) for v in G.values()) - 1)))),end='')
+            print(("{:>{width}} ->".format(head, width=len(max(list(G.keys()), key=len)))),end ='')
             for prod in prods:
-                print (prod)
+                print (prod,end='')
             print()
             i += 1
     print(("\nTERMINALS   :", terminals))
@@ -241,24 +241,24 @@ def print_info():
     print(("SYMBOLS     :", symbols))
     print ("\nFIRST:")
     for head in G:
-        print(("{:>{width}} =".format(head, width=len(max(list(G.keys()), key=len)))))
-        print ("{")
+        print(("{:>{width}} =".format(head, width=len(max(list(G.keys()), key=len)))),end = ' ')
+        print ("{", end = '')
         num_terms = 0
         for terms in FIRST(head):
             if num_terms > 0:
-                print (", ")
-            print (terms)
+                print (", ",end = '')
+            print (terms, end = '')
             num_terms += 1
         print ("}")
     print ("\nFOLLOW:")
     for head in G:
-        print(("{:>{width}} =".format(head, width=len(max(list(G.keys()), key=len)))))
-        print ("{")
+        print(("{:>{width}} =".format(head, width=len(max(list(G.keys()), key=len)))), end = '')
+        print ("{", end = '')
         num_terms = 0
         for terms in FOLLOW(head):
             if num_terms > 0:
-                print (", ")
-            print (terms)
+                print (", ", end= '')
+            print (terms, end = '')
             num_terms += 1
         print ("}")
     print ("\nITEMS:")
@@ -266,9 +266,9 @@ def print_info():
         print(('I' + str(i) + ':'))
         for keys in C['I' + str(i)]:
             for prods in C['I' + str(i)][keys]:
-                print(("{:>{width}} ->".format(keys, width=len(max(list(G.keys()), key=len)))))
+                print(("{:>{width}} ->".format(keys, width=len(max(list(G.keys()), key=len)))), end = '')
                 for prod in prods:
-                    print (prod)
+                    print (prod, end = '')
                 print("")
         print("")
     for i in range(len(parse_table)):
@@ -276,19 +276,19 @@ def print_info():
             ACTION(i, j)
     print ("PARSING TABLE:")
     print(("+" + "--------+" * (len(terminals) + len(nonterminals) + 1)))
-    print(("|{:^8}|".format('STATE')))
+    print(("|{:^8}|".format('STATE')), end = ' ')
     for terms in terminals:
-        print(("{:^7}|".format(terms)))
-    print(("{:^7}|".format("$")))
+        print(("{:^7}|".format(terms)), end = ' ')
+    print(("{:^7}|".format("$")), end = ' ')
     for nonterms in nonterminals:
         if nonterms == start:
             continue
-        print(("{:^7}|".format(nonterms)))
+        print(("{:^7}|".format(nonterms)), end = ' ')
     print(("\n+" + "--------+" * (len(terminals) + len(nonterminals) + 1)))
     for i in range(len(parse_table)):
-        print(("|{:^8}|".format(i)))
+        print(("|{:^8}|".format(i)), end = ' ')
         for j in range(len(parse_table[i]) - 1):
-            print(("{:^7}|".format(parse_table[i][j])))
+            print(("{:^7}|".format(parse_table[i][j])), end = ' ')
         print ("")
     print(("+" + "--------+" * (len(terminals) + len(nonterminals) + 1)))
 
@@ -339,26 +339,26 @@ def process_input(sent):
         stack_content = ""
         input_content = ""
 
-        print(("|{:^8}|".format(step)))
+        print("|{:^8}|".format(step), end = ' ')
         for i in stack:
             stack_content += i
-        print(("{:27}|".format(stack_content)))
+        print("{:27}|".format(stack_content), end = ' ')
         i = pointer
         while i < len(to_parse):
             input_content += to_parse[i]
             i += 1
-        print(("{:>26} | ".format(input_content)))
+        print("{:>26} | ".format(input_content), end=' ')
 
         step += 1
         get_action = ACTION(top_stack, curr_symbol)
-        print(get_action)
+        print(get_action, end = ' ')
         if "s" in get_action:
-            # print "{:^9}|".format(get_action)
+            print("{:^9}|".format(get_action))
             stack.append(curr_symbol)
             stack.append(get_action[1:])
             pointer += 1
         elif "r" in get_action:
-            # print "{:^9}|".format(get_action)
+            print("{:^9}|".format(get_action))
             i = 0
             for head in list(G.keys()):
                 for prods in G[head]:
@@ -371,14 +371,12 @@ def process_input(sent):
                         stack.append(parse_table[int(state)][len(terminals) + nonterminals.index(head)])
                     i += 1
         elif get_action == "acc":
-            print(("{:^9}|".format("ACCEPTED")))
+            print("{:^9}|".format("ACCEPTED"))
             return True
-            break
         else:
             print(("ERROR: Unrecognized symbol", curr_symbol, "|"))
             return False
-            break
-    # print ("+--------+----------------------------+----------------------------+-----------+")
+    print("+--------+----------------------------+----------------------------+-----------+")
 
 
 parse_grammar()

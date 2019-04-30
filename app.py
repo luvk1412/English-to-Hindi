@@ -2,7 +2,6 @@ import tkinter as tk
 import codecs
 from utils import Translate_EN_HN
 
-
 class Application:
     def __init__(self):
         self.root = tk.Tk()
@@ -26,6 +25,11 @@ class Application:
             self.input_field.delete('1.0', tk.END)
             self.output_text.config(text='Upar Vakya Daale')
             tk.messagebox.showinfo("Error", "Word not in dictionary")
+            return
+        if output_hn == '1':
+            self.input_field.delete('1.0', tk.END)
+            self.output_text.config(text='Upar Vakya Daale')
+            tk.messagebox.showinfo("Error", "Invalid Sentence")
             return
         if output_hn == '3':
             self.input_field.delete('1.0', tk.END)

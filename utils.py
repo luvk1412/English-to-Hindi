@@ -1,6 +1,7 @@
 import codecs
 import nltk
-# import LRParser
+import LRParser
+
 def Tokenise(s):
     sentences = s.strip().split('.')
     f_sentences = []
@@ -52,8 +53,8 @@ def get_tagged_sentence(sentence_en):
     return grammar_en
 
 def Translate_EN_HN(s):
-    # if not LRParser.process_input(s):
-    #     return '1'
+    if not LRParser.process_input(s):
+        return '1'
     words = Load_Dictionary()
     EntoHn_rules = Load_TranslationRules()
     tokkened_s = Tokenise(s)
@@ -104,58 +105,3 @@ if __name__ == '__main__':
     sentence_en = input()
     sentence_hindi = Translate_EN_HN(sentence_en)
     print(sentence_hindi)
-
-
-
-
-# with codecs.open('Data.txt', encoding='utf-8') as file:
-#     content = file.readlines()
-
-# english_sentences = []
-# hindi_sentences = []
-
-# print(detect.detect('elephant'))
-# print(SCHEMES)
-# with codecs.open('new_hindi.txt', 'w', encoding='utf-8') as f:
-# for i in range(800,1800,1):
-#     if i > 805:
-#         break
-#     ar = content[i].strip().split('\t')
-#     english_sentences.append(ar[0])
-#     hindi_sentences.append(ar[1])
-#     if ar[0][-1] != '.':
-#         continue
-#     ct+=1
-#     sent = Tokenise(ar[0])
-#     sent = nltk.pos_tag(sent)
-#     print(sent)
-#     s = ''
-#     for eachsent in sent:
-#         s += eachsent[1]+'-'
-#     if s not in types:
-#         types[s] = 1
-#     else:
-#         types[s] += 1
-
-# for key, val in types.items():
-#     print(key,val)
-# tmp_sent = input()
-# flag = True  
-# if tmp_sent == "E":
-#     flag = False
-# f = open("output.txt","w")    
-# while flag:
-#     token_tmp_sent = Tokenise(tmp_sent)
-#     # print(token_tmp_sent)
-#     tag_tmp_sent = nltk.pos_tag(token_tmp_sent)
-#     x = []
-#     f.write(tmp_sent +"\n")
-#     for y in tag_tmp_sent:
-#         f.write(y[1] + " ")
-#         x.append(y[1])
-#     f.write("\n\n")
-#     print(x)
-#     tmp_sent = input()
-#     if tmp_sent == "E":
-#         flag = False
-# f.close()        
